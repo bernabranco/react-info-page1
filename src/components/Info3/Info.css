@@ -1,0 +1,123 @@
+.info3-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+    left:0;
+    }
+    
+    .info3-container-start{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        left:100%;
+        transition: 1s;
+    }
+
+    .info3-wrap{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        width:90%;
+        height:70%;
+        padding:0;
+        color:white;
+    }
+    
+    .info3-wrapper{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        border-style: solid;
+        border-radius: 0px;
+        width:100%;
+        height:70%;
+        padding:0;
+        color:white;
+        overflow: hidden;
+    }
+
+    .heading3{
+        font-size:40px;
+        margin-bottom: 0;
+        float: right;
+        color:white;
+    }
+    
+    
+.pg-ul{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pg-li{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    background-color: rgba(0,0,0,0.5);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
+
+.pg-container{
+    position: relative;
+    flex-grow:1;
+}
+
+.pg-img{
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin:0;
+    border-radius: 0;
+    padding: 2px;
+}
+
+.pg-p{
+    position: absolute;
+    margin-left: 1rem;
+    bottom:0;
+    left: 0;
+    color:white;
+}
+
+.pg-li:hover {
+    background-color: green;
+    color: white;
+}
+
+.pg-container:hover .pg-p{
+    color: white;
+}
+
+.info-3-title {
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
