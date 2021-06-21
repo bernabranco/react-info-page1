@@ -1,5 +1,5 @@
 #DESCRIPTION
-An minimalist info page concept for websites made with react and Threejs.
+- A minimalist info page concept for websites made with react and Threejs.
 (work in progress)
 
 #USAGE
